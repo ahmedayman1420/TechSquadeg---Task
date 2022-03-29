@@ -1,0 +1,15 @@
+{
+    "source": {
+        "include": [
+            "./Modules/Time/Controller",
+            "./Configurations",
+            "./Common/Middlewares"
+        ],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "./Function_Doc/"
+    }
+}
